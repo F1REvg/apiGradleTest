@@ -12,7 +12,8 @@ dependencies {
     testImplementation(
             "io.rest-assured:rest-assured:5.3.0",
             "org.junit.jupiter:junit-jupiter:5.9.0",
-            "org.slf4j:slf4j-simple:$slf4jVersion"
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            'org.hamcrest:hamcrest-all:1.3'
     )
 }
 

@@ -1,0 +1,18 @@
+curl "https://demowebshop.tricentis.com/addproducttocart/details/3/2" ^
+  -H "Accept: */*" ^
+  -H "Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" ^
+  -H "Cookie: Nop.customer=de80663e-6e37-4ae1-b61f-546183f9d502; __utmz=78382081.1676298652.1.1.utmcsr=google^|utmccn=(organic)^|utmcmd=organic^|utmctr=(not^%^20provided); ARRAffinity=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b; ARRAffinitySameSite=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b; __utmc=78382081; __RequestVerificationToken=L3E8Kv_7SOzU45vA5pn4EvYBw2XrDVTrsR9PI46ZL5hMbM6PgB2crfIO6W94tgNmVzHgaIPq4TttRD4Q_uuvKaOFowBff1Rxs_nsrfh0ODw1; __utma=78382081.1448884363.1676298652.1676354950.1676363073.3; NOPCOMMERCE.AUTH=571057CFF23F4FC981CA237D56FB83A126CEC0F4D17AE1923D0EF8E25CFB112D0E321263CFC1FEBF1391824CEBB8E4C24D668D747794BD8C87CA9EF60D63603C89293CE8C80EACAF87563D88AD816A09AD88AD907AFEACDC675B56045493B4614E3369B33EB129F6F28D38A82CCFFB8AC5AECCD2C6E00A704A1E597297159851; __utmt=1; nop.CompareProducts=CompareProductIds=20&CompareProductIds=13; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=3&RecentlyViewedProductIds=31&RecentlyViewedProductIds=36&RecentlyViewedProductIds=25; __atuvc=15^%^7C7; __atuvs=63eb459c17d673fd00b; __utmb=78382081.48.10.1676363073" ^
+  -H "Origin: https://demowebshop.tricentis.com" ^
+  -H "Referer: https://demowebshop.tricentis.com/50-physical-gift-card" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" ^
+  -H "X-Requested-With: XMLHttpRequest" ^
+  -H "sec-ch-ua: ^\^"Not_A Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"109^\^", ^\^"Chromium^\^";v=^\^"109^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  --data-raw "giftcard_3.RecipientName=Some&giftcard_3.SenderName=Evgenii+S&giftcard_3.Message=&addtocart_3.EnteredQuantity=1" ^
+  --compressed
